@@ -1,0 +1,11 @@
+dist: precise
+os: linux
+sudo: false
+language: php
+php: 7
+
+install:
+  - composer install --prefer-source --no-interaction
+
+script:
+  - phpunit -c tests/phpunit.xml --coverage-text

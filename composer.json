@@ -1,0 +1,25 @@
+{
+  "name": "edwardstock/superserializer",
+  "description": "Can serialize everything, even object with properties contains Closures (big thx to SuperClosure project) and callables",
+  "type": "library",
+  "require": {
+    "jeremeamia/SuperClosure": "^2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eduard Maximovich",
+      "email": "edward.vstock@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "edwardstock\\superserializer\\": "src/",
+      "edwardstock\\superserializer\\tests\\": "tests/"
+    }
+  }
+}
