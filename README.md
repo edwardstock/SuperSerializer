@@ -1,6 +1,7 @@
 # SuperSerializer
 Can serialize everything, even object with properties contains Closures (big thx to SuperClosure project) and callables
 
+[![Build Status](https://travis-ci.org/edwardstock/SuperSerializer.svg?branch=master)](https://travis-ci.org/edwardstock/SuperSerializer)
 
 ## Usage
 
